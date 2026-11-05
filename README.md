@@ -197,21 +197,36 @@ Browser tests are skipped automatically if Chromium is not installed.
 
 ## Screen Shots:
 Sample url: https://www.geeksforgeeks.org/python/email-id-extractor-project-from-sites-in-scrapy-python/  
+
 Plugins and Options:
 <img width="962" height="263" alt="image" src="https://github.com/user-attachments/assets/8f661cd4-6fc1-41c9-b494-4131c8d9d724" />
+
+GUI Based: 
+<img width="1366" height="694" alt="image" src="https://github.com/user-attachments/assets/c9d11374-867c-4102-9bc7-d457bf013ab9" />
+
+Output:
+<img width="1366" height="719" alt="image" src="https://github.com/user-attachments/assets/3ea6babd-cc36-4aa3-8d79-9eedff5e7503" />
+
 Website Crawls Summary: many more...
 <img width="817" height="447" alt="image" src="https://github.com/user-attachments/assets/d73ac014-5e0c-4098-a731-4c7e36890e55" />
+
 Extracted Headings:
 <img width="961" height="467" alt="image" src="https://github.com/user-attachments/assets/d933ec8d-8458-42bb-be28-19f61bb6c640" />
+
 Internal Links: another page, file, folder and section many more...
 <img width="1196" height="494" alt="image" src="https://github.com/user-attachments/assets/0ac8c015-33b6-45d4-b5e9-c65a62195048" />
+
 External Links: like Instagram, twitter and LinkedIn and many more...
 <img width="1285" height="475" alt="image" src="https://github.com/user-attachments/assets/2db593ce-11f2-4dbb-a681-9b81ddf57f65" />
+
 Images from websites:
 <img width="1333" height="486" alt="image" src="https://github.com/user-attachments/assets/62421e53-8eb9-48ac-916d-79eb6417ddd0" />
+
 ## Important Extract
+
 Websites backend Tables:
 <img width="1307" height="489" alt="image" src="https://github.com/user-attachments/assets/c64a8e9c-c8cc-4d71-8043-ca10a102fdf6" />
+
 Table Grids: structured layouts of Websites
 <img width="1313" height="478" alt="image" src="https://github.com/user-attachments/assets/f317fc28-90e2-4094-a731-aff6f5c34873" />
 Forms that need an credentials:
