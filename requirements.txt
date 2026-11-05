@@ -1,0 +1,18 @@
+# Core crawling engine and parsing
+scrapy>=2.13,<3
+beautifulsoup4>=4.12
+lxml>=5.0
+httpx>=0.27
+
+# Data processing and export
+pandas>=2.0
+openpyxl>=3.1
+
+# JavaScript rendering (optional at runtime; run "playwright install chromium" once)
+playwright>=1.44
+
+# Optional GUI
+customtkinter>=5.2
+
+# Tests
+pytest>=8.0

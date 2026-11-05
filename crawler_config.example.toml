@@ -1,0 +1,23 @@
+# WebCrawler Pro configuration.  Copy to crawler_config.toml and run:
+#   python main.py --url https://example.com --config crawler_config.toml
+# Command-line options override values in this file.
+
+[crawler]
+max_depth = 5
+max_pages = 1000
+timeout = 30
+concurrency = 4
+delay = 1.0
+max_retries = 2
+include_subdomains = false
+respect_robots = true
+use_sitemaps = true
+javascript = "auto"          # auto | always | never
+output_format = "both"       # csv | xlsx | both
+extract_tables = true
+extract_metadata = true
+extract_external_links = true
+extract_images = true
+download_images = false
+# include_patterns = ["/blog/", "/products/"]     # regex; empty = everything on-site
+# exclude_patterns = ["/private/", "\\.php\\?id="]  # NOTE: replaces the built-in defaults

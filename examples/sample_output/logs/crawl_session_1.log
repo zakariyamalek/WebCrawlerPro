@@ -1,0 +1,87 @@
+2026-11-04 06:45:22,672 [INFO] webcrawler.runner: WebCrawler Pro 1.0.0 - session 1 (new)
+2026-11-04 06:45:23,330 [INFO] webcrawler.spider: Starting crawler for http://127.0.0.1:35571
+2026-11-04 06:45:23,610 [INFO] webcrawler.spider: Crawling /
+2026-11-04 06:45:23,616 [INFO] webcrawler.spider: Homepage successfully retrieved.
+2026-11-04 06:45:23,616 [INFO] webcrawler.spider: Extracted 1 headings.
+2026-11-04 06:45:23,616 [INFO] webcrawler.spider: 24 internal links discovered.
+2026-11-04 06:45:23,836 [INFO] webcrawler.spider: robots.txt read (1 sitemap reference(s)).
+2026-11-04 06:45:23,995 [INFO] webcrawler.spider: Crawling /about
+2026-11-04 06:45:23,998 [INFO] webcrawler.spider: Extracted 3 headings.
+2026-11-04 06:45:23,998 [INFO] webcrawler.spider: 3 internal links discovered.
+2026-11-04 06:45:24,171 [INFO] webcrawler.spider: Crawling /services
+2026-11-04 06:45:24,175 [INFO] webcrawler.spider: Extracted 1 headings.
+2026-11-04 06:45:24,175 [INFO] webcrawler.spider: 5 internal links discovered.
+2026-11-04 06:45:24,450 [INFO] webcrawler.spider: Crawling /contact
+2026-11-04 06:45:24,490 [INFO] webcrawler.spider: Extracted 1 headings.
+2026-11-04 06:45:24,490 [INFO] webcrawler.spider: 2 internal links discovered.
+2026-11-04 06:45:24,670 [INFO] webcrawler.spider: Crawling /blog
+2026-11-04 06:45:24,673 [INFO] webcrawler.spider: Extracted 1 headings.
+2026-11-04 06:45:24,673 [INFO] webcrawler.spider: 4 internal links discovered.
+2026-11-04 06:45:24,969 [INFO] webcrawler.spider: Sitemap http://127.0.0.1:35571/sitemap.xml provided 4 URL(s).
+2026-11-04 06:45:24,971 [WARNING] webcrawler.spider: Skipped http://127.0.0.1:35571/private/secret: Blocked by robots.txt
+2026-11-04 06:45:25,230 [INFO] webcrawler.spider: Crawling /products/
+2026-11-04 06:45:25,232 [INFO] webcrawler.spider: Extracted 1 headings.
+2026-11-04 06:45:25,232 [INFO] webcrawler.spider: 4 internal links discovered.
+2026-11-04 06:45:25,716 [INFO] webcrawler.spider: Crawling /missing
+2026-11-04 06:45:25,717 [WARNING] webcrawler.spider: HTTP 404 encountered at http://127.0.0.1:35571/missing
+2026-11-04 06:45:26,014 [INFO] webcrawler.spider: Crawling /js-app
+2026-11-04 06:45:26,232 [INFO] webcrawler.spider: Crawling /caf%C3%A9
+2026-11-04 06:45:26,238 [INFO] webcrawler.spider: Extracted 1 headings.
+2026-11-04 06:45:26,238 [INFO] webcrawler.spider: 2 internal links discovered.
+2026-11-04 06:45:26,391 [INFO] webcrawler.spider: Crawling /about
+2026-11-04 06:45:26,559 [INFO] webcrawler.renderer: Headless chromium started for JavaScript rendering.
+2026-11-04 06:45:26,681 [INFO] webcrawler.spider: Crawling /plain
+2026-11-04 06:45:26,909 [INFO] webcrawler.spider: Crawling /server-error
+2026-11-04 06:45:26,909 [WARNING] webcrawler.spider: HTTP 500 for /server-error - retry 1/2 in 2.1s
+2026-11-04 06:45:27,168 [INFO] webcrawler.spider: Crawling /empty
+2026-11-04 06:45:27,384 [INFO] webcrawler.spider: Rendered /js-app with JavaScript.
+2026-11-04 06:45:27,384 [INFO] webcrawler.spider: Extracted 1 headings.
+2026-11-04 06:45:27,384 [INFO] webcrawler.spider: 1 internal links discovered.
+2026-11-04 06:45:27,391 [INFO] webcrawler.spider: Crawling /rate-limited
+2026-11-04 06:45:27,393 [WARNING] webcrawler.spider: HTTP 429 received - slowing down to 1.0s between requests.
+2026-11-04 06:45:27,393 [WARNING] webcrawler.spider: HTTP 429 for /rate-limited - retry 1/2 in 2.2s
+2026-11-04 06:45:29,866 [INFO] webcrawler.spider: Crawling /data
+2026-11-04 06:45:29,869 [INFO] webcrawler.spider: Extracted 1 headings.
+2026-11-04 06:45:29,869 [INFO] webcrawler.spider: 2 internal links discovered.
+2026-11-04 06:45:31,190 [INFO] webcrawler.spider: Crawling /sitemap-only
+2026-11-04 06:45:31,193 [INFO] webcrawler.spider: Extracted 1 headings.
+2026-11-04 06:45:31,193 [INFO] webcrawler.spider: 2 internal links discovered.
+2026-11-04 06:45:32,454 [INFO] webcrawler.spider: Crawling /services/service-1
+2026-11-04 06:45:32,458 [INFO] webcrawler.spider: Extracted 1 headings.
+2026-11-04 06:45:32,458 [INFO] webcrawler.spider: 3 internal links discovered.
+2026-11-04 06:45:34,235 [INFO] webcrawler.spider: Crawling /server-error
+2026-11-04 06:45:34,236 [WARNING] webcrawler.spider: HTTP 500 for /server-error - retry 2/2 in 4.2s
+2026-11-04 06:45:35,350 [INFO] webcrawler.spider: Crawling /rate-limited
+2026-11-04 06:45:35,353 [INFO] webcrawler.spider: Extracted 1 headings.
+2026-11-04 06:45:35,353 [INFO] webcrawler.spider: 2 internal links discovered.
+2026-11-04 06:45:36,374 [INFO] webcrawler.spider: Crawling /services/service-2
+2026-11-04 06:45:36,377 [INFO] webcrawler.spider: Extracted 1 headings.
+2026-11-04 06:45:36,377 [INFO] webcrawler.spider: 2 internal links discovered.
+2026-11-04 06:45:38,377 [INFO] webcrawler.spider: Crawling /blog/article-1
+2026-11-04 06:45:38,380 [INFO] webcrawler.spider: Extracted 1 headings.
+2026-11-04 06:45:38,380 [INFO] webcrawler.spider: 3 internal links discovered.
+2026-11-04 06:45:39,106 [INFO] webcrawler.spider: Crawling /blog/article-2
+2026-11-04 06:45:39,109 [INFO] webcrawler.spider: Extracted 1 headings.
+2026-11-04 06:45:39,109 [INFO] webcrawler.spider: 3 internal links discovered.
+2026-11-04 06:45:39,993 [INFO] webcrawler.spider: Crawling /products/widget?id=1
+2026-11-04 06:45:39,997 [INFO] webcrawler.spider: Extracted 1 headings.
+2026-11-04 06:45:39,997 [INFO] webcrawler.spider: 2 internal links discovered.
+2026-11-04 06:45:41,604 [INFO] webcrawler.spider: Crawling /products/widget?id=2
+2026-11-04 06:45:41,608 [INFO] webcrawler.spider: Extracted 1 headings.
+2026-11-04 06:45:41,608 [INFO] webcrawler.spider: 2 internal links discovered.
+2026-11-04 06:45:42,675 [INFO] webcrawler.spider: Crawling /server-error
+2026-11-04 06:45:42,675 [WARNING] webcrawler.spider: HTTP 500 encountered at http://127.0.0.1:35571/server-error
+2026-11-04 06:45:43,723 [INFO] webcrawler.spider: Crawling /js-page
+2026-11-04 06:45:43,726 [INFO] webcrawler.spider: Extracted 1 headings.
+2026-11-04 06:45:43,726 [INFO] webcrawler.spider: 2 internal links discovered.
+2026-11-04 06:45:45,536 [INFO] webcrawler.spider: Crawling /blog/article-3
+2026-11-04 06:45:45,538 [INFO] webcrawler.spider: Extracted 1 headings.
+2026-11-04 06:45:45,538 [INFO] webcrawler.spider: 2 internal links discovered.
+2026-11-04 06:45:52,865 [WARNING] webcrawler.spider: Redirect loop: more than 10 redirects starting at http://127.0.0.1:35571/loop-a
+2026-11-04 06:45:52,918 [INFO] webcrawler.spider: Crawl completed (23 pages: 19 ok, 4 failed, 6 skipped).
+2026-11-04 06:45:52,919 [INFO] webcrawler.scrapy: Progress: 23 crawled, 0 queued, 29 discovered, 4 failed
+2026-11-04 06:45:52,924 [INFO] webcrawler.export: CSV written: /home/claude/WebCrawlerPro/examples/sample_output/csv/website_data.csv (26 rows)
+2026-11-04 06:45:53,008 [INFO] webcrawler.export: Excel written: /home/claude/WebCrawlerPro/examples/sample_output/excel/website_data.xlsx
+2026-11-04 06:45:53,009 [INFO] webcrawler.runner: Export completed.
+2026-11-04 06:45:53,009 [INFO] webcrawler.runner: Output CSV: /home/claude/WebCrawlerPro/examples/sample_output/csv/website_data.csv
+2026-11-04 06:45:53,009 [INFO] webcrawler.runner: Output XLSX: /home/claude/WebCrawlerPro/examples/sample_output/excel/website_data.xlsx
