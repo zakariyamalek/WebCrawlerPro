@@ -22,7 +22,7 @@ NOTICE = ("Only crawl websites you own or have explicit permission to crawl. Web
 class CrawlerApp(ctk.CTk):
     def __init__(self) -> None:
         super().__init__()
-        self.title("WebCrawler Pro")
+        self.title("WebCrawler Pro by Malek Zakariya")
         self.geometry("1080x760")
         self.minsize(960, 680)
         ctk.set_appearance_mode("system")
