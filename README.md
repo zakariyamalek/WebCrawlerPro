@@ -232,4 +232,4 @@ Table Grids: structured layouts of Websites
 Forms that need an credentials:
 <img width="1325" height="480" alt="image" src="https://github.com/user-attachments/assets/8f27d528-8917-4894-82cf-7319b4774425" />
 
-[Author](#https://github.com/zakariyamalek)
+Author: https://github.com/zakariyamalek
