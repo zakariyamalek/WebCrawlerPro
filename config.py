@@ -22,7 +22,7 @@ if sys.version_info >= (3, 11):
 else:  # pragma: no cover - project requires 3.11+, kept for clearer error
     raise RuntimeError("WebCrawler Pro requires Python 3.11 or newer.")
 
-APP_NAME = "WebCrawler Pro"
+APP_NAME = "WebCrawler Pro by Malek Zakariya"
 APP_FULL_NAME = "WebCrawler Pro – Automated Website Intelligence & Data Extraction System"
 APP_VERSION = "1.0.0"
 BASE_DIR = Path(__file__).resolve().parent
