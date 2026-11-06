@@ -144,18 +144,18 @@ or `@` is prefixed with `'` so spreadsheets never run it as a formula.
 
 ```
 WebCrawlerPro/
-├── main.py                      CLI entry point (+ --gui)
-├── config.py                    settings and defaults
-├── requirements.txt
-├── crawler_config.example.toml
-├── crawler/                     spider, extractor, URL normaliser/discovery, robots, sitemaps, JS renderer, runner
-├── exporters/                   csv_exporter.py, excel_exporter.py
-├── database/crawl_database.py   SQLite sessions / URLs / pages
-├── gui/                         CustomTkinter app + controller
-├── utils/                       logger, validators (SSRF), helpers
-├── output/                      csv/, excel/, logs/
-├── tests/                       unit + end-to-end tests with a local test website
-└── examples/                    run_demo.py and sample_output/
+              ├── main.py                      CLI entry point (+ --gui)
+              ├── config.py                    settings and defaults
+              ├── requirements.txt
+              ├── crawler_config.example.toml
+              ├── crawler/                     spider, extractor, URL normaliser/discovery, robots, sitemaps, JS renderer, runner
+              ├── exporters/                   csv_exporter.py, excel_exporter.py
+              ├── database/crawl_database.py   SQLite sessions / URLs / pages
+              ├── gui/                         CustomTkinter app + controller
+              ├── utils/                       logger, validators (SSRF), helpers
+              ├── output/                      csv/, excel/, logs/
+              ├── tests/                       unit + end-to-end tests with a local test website
+              └── examples/                    run_demo.py and sample_output/
 ```
 
 ## 7. Testing
